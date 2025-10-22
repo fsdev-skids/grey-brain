@@ -6,7 +6,7 @@ import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
 import PartnersCard from "./PartnersCard";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 
 export default function Home() {
@@ -30,7 +30,6 @@ export default function Home() {
 
   return (
     <>
-    <Navbar />
     <HeroSection/>
     <CoursesSection/>
     <CourseTestimonials/>
