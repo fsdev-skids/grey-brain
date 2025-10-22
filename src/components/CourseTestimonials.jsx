@@ -31,7 +31,7 @@ const CourseTestimonials = () => {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900 mb-3">
+        <h2 className="text-4xl font-bold text-gray-900 mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
           What Our Learners Say
         </h2>
         <p className="text-gray-600 text-lg">
@@ -58,7 +58,7 @@ const CourseTestimonials = () => {
               </div>
             </div>
             <p className="text-gray-700 mb-4">“{t.text}”</p>
-            <p className="text-sm text-blue-800 font-semibold mt-auto">
+            <p className="text-sm text-blue-800 font-semibold mt-auto text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
               {t.course}
             </p>
           </div>

@@ -187,10 +187,11 @@ const CoursesSection = () => {
         <section className="bg-[#e9f1f6] py-20 px-6">
             <div className="max-w-6xl mx-auto text-center">
                 {/* Section header */}
-                <p className="text-sm font-semibold text-gray-700 mb-2">Development</p>
-                <h2 className="text-4xl font-bold text-gray-900 mb-3">
-                    AI-powered professional growth
-                </h2>
+                <h2 className="text-4xl font-bold mb-3 
+  text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
+  AI-powered professional growth
+</h2>
+
                 <p className="text-gray-600 mb-12">
                     Transformative learning experiences for healthcare professionals
                 </p>
@@ -223,7 +224,7 @@ const CoursesSection = () => {
 
                 {/* Explore More Button */}
                 <div className="flex justify-center">
-                    <button onClick={handleExploreCourses} className="bg-blue-900 text-white flex items-center justify-between w-48 border border-gray-300 px-4 py-2 font-semibold text-lg transition">
+                    <button onClick={handleExploreCourses} className="bg-[#9B87F5] text-white flex items-center justify-between w-48 border border-gray-300 px-4 py-2 font-semibold text-lg transition">
                         <span>Explore Courses</span>
                         <ArrowRight size={18} />
                     </button>

@@ -16,10 +16,10 @@ const Navbar = () => {
 
           {/* Desktop Menu - Left aligned */}
           <ul className="hidden md:flex space-x-6 text-sm font-medium">
-            <li className="hover:text-blue-800 cursor-pointer">Solutions</li>
-            <li className="hover:text-blue-800 cursor-pointer">Courses</li>
-            <li className="hover:text-blue-800 cursor-pointer">Products</li>
-            <li className="flex items-center hover:text-blue-800 cursor-pointer">
+            <li className="hover:text-[#6E59A5] cursor-pointer">Solutions</li>
+            <li className="hover:text-[#6E59A5] cursor-pointer">Courses</li>
+            <li className="hover:text-[#6E59A5] cursor-pointer">Products</li>
+            <li className="flex items-center hover:text-[#6E59A5] cursor-pointer">
               Resources
               <ChevronDown size={16} className="ml-1" />
             </li>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <button className="border border-gray-300 px-4 py-2 rounded-md bg-white hover:bg-gray-100 transition">
             Explore
           </button>
-          <button className="bg-blue-900 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-800 transition">
+          <button className="bg-[#9B87F5] text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-800 transition">
             Contact
           </button>
         </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <button className="border border-gray-300 px-4 py-2 rounded-md bg-white hover:bg-gray-100 transition">
               Explore
             </button>
-            <button className="bg-blue-900 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-800 transition">
+            <button className="bg-[#9B87F5] text-white px-4 py-2 rounded-md font-semibold hover:bg-[#6E59A5] transition">
               Contact
             </button>
           </div>

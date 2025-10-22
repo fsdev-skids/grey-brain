@@ -38,7 +38,7 @@ const PartnersCard = () => {
       <div className="max-w-6xl mx-auto text-center">
         {/* Section Header */}
         <p className="text-sm font-semibold text-gray-700 mb-2">Partners</p>
-        <h2 className="text-4xl font-bold text-gray-900 mb-3">
+        <h2 className="text-4xl font-bold text-gray-900 mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5] ">
           Trusted technology collaborators
         </h2>
         <p className="text-gray-600 mb-12">
@@ -73,7 +73,7 @@ const PartnersCard = () => {
           {/* Right: Content */}
           <div className="flex flex-col justify-center text-left px-8 py-10 bg-[#e1edf5]">
             <p className="text-sm font-semibold text-gray-600 mb-1">Network</p>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3 leading-snug">
+            <h3 className="text-2xl font-bold text-gray-900 mb-3 leading-snug text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
               Expanding possibilities through strategic alliances
             </h3>
             <p className="text-gray-600 mb-6 text-sm">
@@ -81,7 +81,7 @@ const PartnersCard = () => {
               technological advancement.
             </p>
             <div className="flex gap-4">
-              <button className="px-4 py-2 text-sm font-medium bg-white border border-gray-300 rounded-md hover:bg-gray-100 transition">
+              <button className="bg-[#6E59A5] px-4 py-2 text-sm text-white font-medium bg-white border border-gray-300 rounded-md hover:bg-[#9B87F5] transition">
                 Learn more
               </button>
               <button className="flex items-center gap-1 text-sm font-semibold text-gray-800 hover:underline">
@@ -104,14 +104,14 @@ const PartnersCard = () => {
                 <p className="text-sm font-semibold text-gray-600 mb-1">
                   {course.category}
                 </p>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
                   {course.title}
                 </h3>
                 <p className="text-sm text-gray-600 mb-4">
                   {course.description}
                 </p>
               </div>
-              <button className="text-blue-800 font-semibold text-sm flex items-center gap-1 hover:underline">
+              <button className="text-blue-800 font-semibold text-sm flex items-center gap-1 hover:underline text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
                 {course.linkText} <ArrowRight size={16} />
               </button>
             </div>
@@ -123,7 +123,7 @@ const PartnersCard = () => {
       </div>
       {/* Explore More Button */}
       <div className="flex justify-center pt-12">
-        <button onClick={handleSeeMore} className="bg-blue-900 text-white flex items-center justify-between w-42 border border-gray-300 px-4 py-2 font-semibold text-lg transition gap-2">
+        <button onClick={handleSeeMore} className="bg-[#9B87F5] text-white flex items-center justify-between w-42 border border-gray-300 px-4 py-2 font-semibold text-lg transition gap-2">
           <span>See More</span>
           <ArrowRight size={18} />
         </button>
