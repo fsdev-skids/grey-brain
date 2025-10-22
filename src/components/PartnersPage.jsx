@@ -44,7 +44,7 @@ const PartnersPage = () => {
   return (
     <section className="bg-[#e9f1f6] min-h-screen py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
           Our Partner Network
         </h1>
         <p className="text-gray-600 mb-12 text-center">
@@ -62,7 +62,7 @@ const PartnersPage = () => {
                   <p className="text-sm font-semibold text-gray-600 mb-1">
                     {partner.category}
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
                     {partner.title}
                   </h3>
                   <p className="text-sm text-gray-600 mb-4">

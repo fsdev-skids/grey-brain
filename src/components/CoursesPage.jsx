@@ -62,7 +62,7 @@ const CoursesPage = () => {
   return (
     <section className="bg-[#e9f1f6] min-h-screen py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
           Explore All Courses
         </h1>
         <p className="text-gray-600 mb-12">
