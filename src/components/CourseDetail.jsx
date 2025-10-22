@@ -48,7 +48,7 @@ const CourseDetail = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-sm text-gray-600 mb-4">
           Courses / {course.category} /{" "}
-          <span className="font-semibold text-gray-800">{course.title}</span>
+          <span className="font-semibold text-[#6E59A5]">{course.title}</span>
         </div>
 
         <h1 className="text-3xl font-bold text-gray-900 mb-4">{course.title}</h1>
@@ -70,7 +70,7 @@ const CourseDetail = () => {
           </div>
         </div>
 
-        <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-800 flex items-center gap-2">
+        <button className="bg-[#6E59A5] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#9B87F5] flex items-center gap-2">
           Enroll Now <ArrowRight size={18} />
         </button>
       </div>

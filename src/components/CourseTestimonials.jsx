@@ -54,7 +54,7 @@ const CourseTestimonials = () => {
               />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{t.name}</h3>
-                <p className="text-sm text-gray-600">{t.role}</p>
+                <p className="text-sm text-gray-600 text-[#6E59A5]">{t.role}</p>
               </div>
             </div>
             <p className="text-gray-700 mb-4">“{t.text}”</p>

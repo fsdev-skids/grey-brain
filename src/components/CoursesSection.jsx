@@ -209,7 +209,7 @@ const CoursesSection = () => {
                             <p className="text-sm font-semibold text-gray-600 mb-1">
                                 {course.category}
                             </p>
-                            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                            <h3 className="text-lg font-semibold text-[#6E59A5] mb-2">
                                 {course.title}
                             </h3>
                             <p className="text-sm text-gray-600 flex-grow">
