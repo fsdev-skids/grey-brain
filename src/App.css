@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 25s linear infinite;
+}
+
+
+.truncate-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* कितनी lines दिखानी हैं */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
 html, body {
   margin: 0;
   padding: 0;
