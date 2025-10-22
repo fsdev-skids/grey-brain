@@ -10,9 +10,9 @@ import HeroSection from "../components/Herosection";
 import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
-import Footer from "../components/Footer";
 import PartnersCard from "./PartnersCard";
 import CourseDetail from "./CourseDetail";
+import Footer from "./footer";
 
 
 export default function Home() {
