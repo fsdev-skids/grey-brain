@@ -69,9 +69,7 @@ const CourseTestimonials = () => {
         <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
           What Our Learners Say
         </h2>
-        <p className="text-gray-600 text-base sm:text-lg">
-          Hear from healthcare professionals who rated our course 5 stars.
-        </p>
+        
       </div>
 
       {/* Responsive testimonial cards */}
