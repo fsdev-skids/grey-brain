@@ -6,13 +6,13 @@
 import { useEffect, useState } from "react";
 // import { Sun, Moon } from "lucide-react";
 import Navbar from "./Navbar";
+import HeroSection from "../components/Herosection";
 import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
 import PartnersCard from "./PartnersCard";
 import CourseDetail from "./CourseDetail";
 import Footer from "./footer";
-import HeroSection from "./herosection";
 
 
 export default function Home() {
