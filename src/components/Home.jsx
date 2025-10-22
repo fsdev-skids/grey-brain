@@ -10,7 +10,7 @@ import HeroSection from "../components/Herosection";
 import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 import PartnersCard from "./PartnersCard";
 import CourseDetail from "./CourseDetail";
 
