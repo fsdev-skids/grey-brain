@@ -34,7 +34,7 @@ const PartnersCard = () => {
     navigate("/partners");
   };
   return (
-    <section className="bg-[#e9f1f6] py-20 px-6">
+    <section className="bg-gray-100 py-8 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Section Header */}
         <p className="text-sm font-semibold text-gray-700 mb-2">Partners</p>
@@ -81,7 +81,7 @@ const PartnersCard = () => {
               technological advancement.
             </p>
             <div className="flex gap-4">
-              <button className="bg-[#6E59A5] px-4 py-2 text-sm text-white font-medium bg-white border border-gray-300 rounded-md hover:bg-[#9B87F5] transition">
+              <button className="bg-[#9B87F5] px-4 py-2 text-sm text-white font-medium bg-white border border-gray-300 rounded-md hover:bg-[#9B87F5] transition">
                 Learn more
               </button>
               <button className="flex items-center gap-1 text-sm font-semibold text-gray-800 hover:underline">

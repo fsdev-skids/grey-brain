@@ -64,7 +64,7 @@ const CourseTestimonials = () => {
   }
 
   return (
-    <section className="bg-white py-20 px-4 sm:px-6 overflow-hidden">
+    <section className="bg-gray-100 py-8 px-4 sm:px-6 overflow-hidden">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
           What Our Learners Say

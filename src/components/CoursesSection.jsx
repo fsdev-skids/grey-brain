@@ -184,7 +184,7 @@ const CoursesSection = () => {
     navigate("/courses");
   };
     return (
-        <section className="bg-[#e9f1f6] py-20 px-6">
+        <section className="bg-gray-100 py-8 px-6">
             <div className="max-w-6xl mx-auto text-center">
                 {/* Section header */}
                 <h2 className="text-4xl font-bold mb-3 
