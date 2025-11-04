@@ -6,7 +6,7 @@ import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
 import PartnersCard from "./PartnersCard";
-import Footer from "./Footer";
+import Footer from "./footer";
 import InnovationCardSection from "./InnovationCardSection";
 import BlogsCard from "./BlogsCard";
 
