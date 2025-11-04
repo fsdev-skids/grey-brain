@@ -6,7 +6,9 @@ import CoursesSection from "./CoursesSection";
 import Partners from "./PartnersLogo";
 import CourseTestimonials from "./CourseTestimonials";
 import PartnersCard from "./PartnersCard";
-import Footer from "./footer";
+import Footer from "./Footer";
+import InnovationCardSection from "./InnovationCardSection";
+import BlogsCard from "./BlogsCard";
 
 export default function Home() {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -33,6 +35,8 @@ export default function Home() {
     <CoursesSection/>
     <CourseTestimonials/>
     <PartnersCard/>
+    <InnovationCardSection/>
+    <BlogsCard />
     <Partners/>
     <Footer/>
     </>

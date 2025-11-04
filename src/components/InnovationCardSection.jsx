@@ -26,7 +26,7 @@ const courses = [
   },
 ];
 
-const PartnersCard = () => {
+const InnovationCardSection = () => {
   
   const navigate = useNavigate();
 
@@ -132,4 +132,4 @@ const PartnersCard = () => {
   );
 };
 
-export default PartnersCard;
+export default InnovationCardSection;
