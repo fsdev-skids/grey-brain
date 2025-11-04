@@ -3,7 +3,6 @@ import Autoplay from "embla-carousel-autoplay";
 import React, { useRef } from "react";
 import { Heart, MessageCircle, Share } from "lucide-react";
 
-
 const articles = [
   {
     avatar: "https://placehold.co/32x32?text=CB",
@@ -14,15 +13,15 @@ const articles = [
     desc: "Affinity made waves last week with its new rebrand...",
     likes: 1, comments: 8, shares: 1,
   },
-  {
-    avatar: "https://placehold.co/32x32?text=P",
-    source: "ProPublica",
-    time: "9 hours ago",
-    image: "https://placehold.co/600x400/222/fff?text=Courtroom",
-    title: "Appeals Court Upholds Conviction Despite Examiner Recanting",
-    desc: "A judge raised concerns about ignoring forensic reversals...",
-    likes: 4, comments: 1, shares: 10,
-  },
+//   {
+//     avatar: "https://placehold.co/32x32?text=P",
+//     source: "ProPublica",
+//     time: "9 hours ago",
+//     image: "https://placehold.co/600x400/222/fff?text=Courtroom",
+//     title: "Appeals Court Upholds Conviction Despite Examiner Recanting",
+//     desc: "A judge raised concerns about ignoring forensic reversals...",
+//     likes: 4, comments: 1, shares: 10,
+//   },
   {
     avatar: "https://placehold.co/32x32?text=PD",
     source: "Market Moving News",
@@ -62,9 +61,7 @@ const articles = [
 ];
 
 const NewsCard = ({ article }) => (
-  <div className="flex-[0_0_33.33%] min-w-[300px] bg-white rounded-xl shadow border p-4">
-
-    {/* Header */}
+  <div className="bg-white rounded-xl shadow border p-4">
     <div className="flex items-center gap-2 mb-3">
       <img src={article.avatar} alt="" className="w-8 h-8 rounded-full" />
       <div className="flex flex-col text-sm">
@@ -73,46 +70,35 @@ const NewsCard = ({ article }) => (
       </div>
     </div>
 
-    {/* Image */}
     <img
       src={article.image}
       alt="news"
       className="w-full h-48 rounded-md object-cover mb-3"
     />
 
-    {/* Content */}
     <h3 className="font-bold text-lg mb-1">{article.title}</h3>
     <p className="text-gray-600 text-sm mb-3">{article.desc}</p>
 
-    {/* Footer */}
-    <div className="flex items-center justify-between text-gray-500 text-sm mt-3">
-  <div className="flex items-center gap-5">
-    <span className="flex items-center gap-1">
-      <Heart size={18} className="stroke-[#6E59A5]" />
-      {article.likes}
-    </span>
-
-    <span className="flex items-center gap-1">
-      <MessageCircle size={18} className="stroke-[#6E59A5]" />
-      {article.comments}
-    </span>
-
-    <span className="flex items-center gap-1">
-      <Share size={18} className="stroke-[#6E59A5]" />
-      {article.shares}
-    </span>
-  </div>
-</div>
-
+    <div className="flex items-center gap-5 text-sm text-gray-600 mt-3">
+      <span className="flex items-center gap-1">
+        <Heart size={18} className="stroke-[#6E59A5]" /> {article.likes}
+      </span>
+      <span className="flex items-center gap-1">
+        <MessageCircle size={18} className="stroke-[#6E59A5]" /> {article.comments}
+      </span>
+      <span className="flex items-center gap-1">
+        <Share size={18} className="stroke-[#6E59A5]" /> {article.shares}
+      </span>
+    </div>
   </div>
 );
 
 export default function Blogs() {
-      const autoplay = useRef(
+  const autoplay = useRef(
     Autoplay({
-      delay: 3000, // 3 seconds
+      delay: 3000,
       stopOnInteraction: false,
-      stopOnMouseEnter: true, // hover par stop
+      stopOnMouseEnter: true
     })
   );
 
@@ -120,12 +106,13 @@ export default function Blogs() {
     { align: "start", loop: true },
     [autoplay.current]
   );
+
   return (
     <div className="p-2 bg-gray-100 w-full flex flex-col gap-2">
-      <h2 className="text-4xl pb-2 font-bold flex justify-center text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5] ">
-        Grey Brainer's Blog 
+      <h2 className="text-4xl pb-2 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#6E59A5] to-[#9B87F5]">
+        Grey Brainer's Blog
       </h2>
-      <p className="text-gray-600 flex justify-center py-2">The best of everything you follow</p>
+      <p className="text-gray-600 text-center py-2">The best of everything you follow</p>
 
       <div
         className="overflow-hidden"
@@ -133,9 +120,11 @@ export default function Blogs() {
         onMouseEnter={autoplay.current.stop}
         onMouseLeave={autoplay.current.play}
       >
-        <div className="flex gap-4 pb-4">
+        <div className="flex pb-4 -ml-4">
           {articles.map((a, i) => (
-            <NewsCard key={i} article={a} />
+            <div key={i} className="flex-[0_0_33.33%] min-w-[300px] pl-4">
+              <NewsCard article={a} />
+            </div>
           ))}
         </div>
       </div>
